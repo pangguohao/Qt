@@ -6,7 +6,9 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        singleton.cpp
+        singleton.cpp \
+        supersingleton.cpp
 
 HEADERS += \
-    singleton.h
+    singleton.h \
+    supersingleton.h
