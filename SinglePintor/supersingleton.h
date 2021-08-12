@@ -4,6 +4,13 @@
 #include <QMutex>
 #include <QScopedPointer>
 
+class abc
+{
+public:
+    abc(){}
+    ~abc(){}
+};
+
 #define DECLARE_SINGLETON(Class) \
 Q_DISABLE_COPY(Class) \
 public: \
@@ -22,7 +29,7 @@ public: \
 
 class superSingleton
 {
-    DECLARE_SINGLETON(superSingleton)    // 声明单例模式
+    DECLARE_SINGLETON(abc)    // 声明单例模式
     //...
 };
 
