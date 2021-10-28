@@ -1,0 +1,6 @@
+有用的站点
+
+1.QCustomPlot
+    源代码地址：QCustomPlot：https://www.qcustomplot.com/index.php/download
+    QCustomPlot是用于绘图和数据可视化的Qt C ++小部件。它没有进一步的依赖关系，并且有据可查。该绘图库专注于制作美观，出版质量的2D绘图，图形和图表，以及为实时可视化应用程序提供高性能。看一下“ 设置”和“ 基本绘图”教程以开始使用。
+    QCustomPlot可以导出为各种格式，例如矢量化的PDF文件和光栅化的图像（如PNG，JPG和BMP）。QCustomPlot是用于在应用程序内部显示实时数据以及为其他媒体生成高质量图的解决方案。
